@@ -1,0 +1,139 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* NAVBAR */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+.logo {
+  padding: 10px;
+  height: 50px;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+}
+
+.links a {
+  padding: 0px 10px;
+  color: gray;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: coral;
+}
+
+/* MISSION */
+
+.mission {
+  background-image: url(./Images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.mission-text {
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+}
+
+/* TEA */
+
+.tea {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.tea-images {
+  display: flex;
+  height: 600px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-images div {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  padding: 0px 10px;
+  flex-direction: column;
+}
+
+/* LOCATIONS */
+
+#location-header {
+  padding-top: 50px;
+}
+
+.locations {
+  background-image: url(./Images/img-locations-background.jpg);
+  align-items: center;
+  height: 580px;
+  width: 1200px;
+  justify-content: center;
+  background-position: top;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.location-cards {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+#downtown,
+#bayside,
+#oakdale {
+  background-color: black;
+  opacity: 1;
+  max-height: 300px;
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+
+/* CONTACT */
+
+#contact {
+  height: 200px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
